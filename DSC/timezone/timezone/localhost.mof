@@ -1,0 +1,35 @@
+/*
+@TargetNode='localhost'
+@GeneratedBy=MathiasVandePol
+@GenerationDate=04/07/2021 09:44:18
+@GenerationHost=ARX-17679595157
+*/
+
+instance of DSC_TimeZone as $DSC_TimeZone1ref
+{
+TimeZone = "W. Europe Standard Time";
+ SourceInfo = "C:\\Users\\MathiasVandePol\\Projects\\umicore\\terraform-azurerm-caf-adds\\timezone\\localhost.ps1::4::5::TimeZone";
+ ResourceID = "[TimeZone]westeustandard";
+ ModuleVersion = "8.4.0";
+ IsSingleInstance = "Yes";
+ ModuleName = "ComputerManagementDsc";
+ ConfigurationName = "timezone";
+};
+instance of OMI_ConfigurationDocument
+
+                    {
+ Version="2.0.0";
+
+                        MinimumCompatibleVersion = "1.0.0";
+
+                        CompatibleVersionAdditionalProperties= {"Omi_BaseResource:ConfigurationName"};
+
+                        Author="MathiasVandePol";
+
+                        GenerationDate="04/07/2021 09:44:18";
+
+                        GenerationHost="ARX-17679595157";
+
+                        Name="timezone";
+
+                    };
